@@ -6,10 +6,11 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
 
+
 # List of receivers to call
 receivers = {
-    '1': ('127.0.0.1', 5005),
-    '2': ('192.168.1.11', 5005),
+    '1': ('localhost', 5005),
+    '2': ('hannes-Nitro-AN515-51.local', 5005),
     '3': ('192.168.1.12', 5005),
 }
 
