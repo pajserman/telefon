@@ -1,0 +1,5 @@
+pyaudio
+numpy           # for signal processing if needed
+pyogg           # for Opus/Vorbis encoding
+opuslib         # lightweight Opus codec support
+sounddevice     # alternative to pyaudio
